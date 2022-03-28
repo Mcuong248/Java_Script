@@ -38,16 +38,12 @@ function translate(message) {
 		return "Xin chào";
 	  case "EN":
 		return "Hello";
-	  case "ESP":
-		return "Hola";
-	  case "FR":
-		return "Salut";
+	  case "JP":
+		return "やあ";
+	  case "ISO":
+		return "你好";
 	  case "DE":
 		return "Hallo";
-	  case "RU":
-		return "Привет";
-	  case "KR":
-		return "안녕";
 	  default:
 		"";
 	}
