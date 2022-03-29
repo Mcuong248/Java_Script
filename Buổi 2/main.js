@@ -39,8 +39,8 @@ function addProduct(product) {
 
   // 7. Xóa tất cả sản phẩm của thương hiệu "Samsung" trong giỏ hàng
   function removeProduct(arr) {
-    let valueRemove = "Samsung";
-    return arr.filter((products) => !valueRemove.includes(products.brand));
+    let removeStr = "Samsung";
+    return arr.filter((products) => !removeStr.includes(products.brand));
   }
   console.log(removeProduct(products));
 
